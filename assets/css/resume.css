@@ -1,0 +1,254 @@
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*-container:after, *-container:before{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+html{
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    overflow-y: hidden;
+    height:100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+html,body{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size:36px
+}
+
+h2{
+    font-size:30px
+}
+
+h3{
+    font-size:24px
+}
+
+h4{
+    font-size:20px
+}
+
+h5{
+    font-size:18px
+}
+
+h6{
+    font-size:16px
+}
+
+img{
+    border-style: none;
+    vertical-align: middle;
+}
+
+hr{
+    box-sizing:content-box;
+    height:0;
+    overflow:visible;
+    border:0;
+    border-top:1px solid #eee;
+    margin:20px 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans" ,sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.background{
+    color: #000;
+    background-color: #e8e3d3   
+}
+
+.resume-content{
+    position: relative;
+    max-width: 1400px;
+    margin: auto;
+    z-index: 100;
+    overflow-y: scroll;
+}
+
+.resume-grid, .resume-grid > .resume-third, .resume-grid > .resume-twothird{
+    padding: 0 8px;
+}
+
+.resume-third{
+    float: left;
+    width: 100%;
+}
+
+.resume-sidebar{
+    color: #757575;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.resume-container-display{
+    position: relative;
+}
+
+.resume-headshot{
+    width: 100%;
+}
+
+.resume-headshot-text{
+    position:absolute;
+    left: 50%;
+    text-align: right;
+    bottom: 0;
+    padding: 0.01em 16px;
+    color: #4b2e83;
+}
+
+.resume-container{
+    padding: 0.01em 16px;
+}
+
+.resume-about-icon{
+    font-size: 18px;
+    color: #4b2e83
+}
+
+.resume-skill-title{
+    font-size: 18px;
+}
+
+.resume-skill-icon{
+    color: #4b2e83;
+}
+
+.resume-skill-bar-container{
+    color: #000;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    font-size: 12px;
+}
+
+.resume-skill-bar{
+    padding: 0.01em 16px;
+    display:inline-block;
+    width:auto;
+    text-align:center;
+    border-radius:16px;
+    color: #fff;
+    background-color: #4b2e83;
+}
+
+.resume-twothird{
+    float: left;
+    width: 100%;
+}
+
+.resume-contentcard{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    color: #000;
+    background-color: #fff;
+    padding: 0.01em 16px;
+    margin-bottom: 16px;
+}
+
+.resume-contentcard-title{
+    color: #757575;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.resume-contentcard-icon{
+    font-size: 36px;
+    color: #4b2e83;
+}
+
+.resume-contentcard-unit-title{
+    opacity:0.60;
+}
+
+.resume-contentcard-edu-degree{
+    font-style: italic;
+}
+
+.resume-contentcard-dates{
+    color: #4b2e83;
+}
+
+.resume-contentcard-dates-current{
+    color:#fff;
+    display:inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center;
+    background-color: #4b2e83;
+    border-radius: 4px;
+}
+
+#particles-js{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    /* background-color: #4b2e83; */
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+/* MARGINS */
+.margin-top{
+    margin-top: 16px;
+}
+
+.margin-bottom{
+    margin-bottom: 16px;
+}
+
+.margin-left{
+    margin-left: 16px;
+}
+
+.margin-right{
+    margin-right: 16px;
+}
+
+.margin-top-half{
+    margin-top: 8px;
+}
+
+.margin-bottom-half{
+    margin-bottom: 8px;
+}
+
+.margin-left-half{
+    margin-left: 8px;
+}
+
+.margin-right-half{
+    margin-right: 8px;
+}
+
+/* MEDIA RULES */
+@media (min-width:601px){
+    .resume-third{
+        width: 33.33333%;
+    }
+    .resume-twothird{
+        width: 66.66666%;
+    }
+}
