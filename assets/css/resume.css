@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6{
     position:absolute;
     left: 50%;
     text-align: right;
-    bottom: 0;
+    top: 0;
     padding: 0.01em 16px;
     color: #4b2e83;
 }
