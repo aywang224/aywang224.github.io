@@ -1,188 +1,188 @@
 body {
-    margin: 0;
-    overflow: hidden;
-    font-feature-settings: "liga", "kern", "clig", "calt";
-    font-size: 16px;
-    font-stretch: normal;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-weight: normal;
-    font: 100%/1.666 'Open Sans', 'Open Sans Light', 'Open Sans Italic', 'Open Sans Light Italic', sans-serif;
-  }
+  margin: 0;
+  overflow: visible;
+  font-feature-settings: "liga", "kern", "clig", "calt";
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  font: 100%/1.666 'Open Sans', 'Open Sans Light', 'Open Sans Italic', 'Open Sans Light Italic', sans-serif;
+}
 
-  canvas {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-  }
+canvas {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}
 
-  .text-container {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 600px;
-    height: 100%;
-    min-height: 100%;
-    max-height: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: inherit;
-  }
+.text-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: inherit;
+}
 
-  .vertical-container {
-    box-sizing: border-box;
-    width: 900px;
-    max-width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    max-height: 100%;
-    padding: 50px 50px 50px 50px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: inherit;
-  }
+.vertical-container {
+  box-sizing: border-box;
+  width: 900px;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 50px 50px 50px 50px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: inherit;
+}
 
-  .horizontal-container {
-    box-sizing: border-box;
-    width: 100vw;
-    max-width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    max-height: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    z-index: 2;
-  }
+.horizontal-container {
+  box-sizing: border-box;
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+}
 
-  .link {
-    color: #0A2540;
-    text-decoration: none;
-    -webkit-transition: all 0.25s ease-in;
-    -moz-transition: all 0.25s ease-in;
-    -ms-transition: all 0.25s ease-in;
-    -o-transition: all 0.25s ease-in;
-    transition: all 0.25s ease-in;
-  }
+.link {
+  color: #0A2540;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -ms-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
 
-  .link:hover {
-    color: #7A73FF;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -ms-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
+.link:hover {
+  color: #7A73FF;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
 
-  h1,
-  p {
-    font-family: "Open Sans", sans-serif;
-    box-sizing: border-box;
-    color: #0A2540;
-    margin-bottom: 1.666rem;
-    margin-top: 0;
-    padding: 0;
-  }
+h1,
+p {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  color: #0A2540;
+  margin-bottom: 1.666rem;
+  margin-top: 0;
+  padding: 0;
+}
 
-  h1 {
-    font-family: "Open Sans", "Open Sans Light", "Open Sans Italic", "Open Sans Light Italic", sans-serif;
-    line-height: 1.1;
-  }
+h1 {
+  font-family: "Open Sans", "Open Sans Light", "Open Sans Italic", "Open Sans Light Italic", sans-serif;
+  line-height: 1.1;
+}
 
-  .social-bar {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-  }
+.social-bar {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
 
-  .social-icon {
-    width: 32px;
-    height: 32px;
-    position: relative;
-    overflow: hidden;
-    vertical-align: middle;
-    margin-right: 0.3rem;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -ms-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
+.social-icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
 
-  .social-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
+.social-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 
-  .social-svg {
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    fill-rule: evenodd;
-  }
+.social-svg {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill-rule: evenodd;
+}
 
-  .social-svg-background {
-    fill: transparent;
-  }
+.social-svg-background {
+  fill: transparent;
+}
 
-  .social-svg-icon {
-    fill: #0A2540;
-    -webkit-transition: all 0.25s ease-in;
-    -moz-transition: all 0.25s ease-in;
-    -ms-transition: all 0.25s ease-in;
-    -o-transition: all 0.25s ease-in;
-    transition: all 0.25s ease-in;
-  }
+.social-svg-icon {
+  fill: #0A2540;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -ms-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
 
-  .social-circle {
-    stroke: #0A2540;
-    stroke-width: 3;
-    -webkit-transition: all 0.25s ease-in;
-    -moz-transition: all 0.25s ease-in;
-    -ms-transition: all 0.25s ease-in;
-    -o-transition: all 0.25s ease-in;
-    transition: all 0.25s ease-in;
-  }
+.social-circle {
+  stroke: #0A2540;
+  stroke-width: 3;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -ms-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
 
-  .social-icon:hover .social-circle {
-    stroke: #7A73FF;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -ms-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
+.social-icon:hover .social-circle {
+  stroke: #7A73FF;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
 
-  .social-icon:hover .social-svg-icon {
-    fill: #7A73FF;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -ms-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
+.social-icon:hover .social-svg-icon {
+  fill: #7A73FF;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
