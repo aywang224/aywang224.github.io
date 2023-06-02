@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow: visible;
+  min-height: 100vh;
   font-feature-settings: "liga", "kern", "clig", "calt";
   font-size: 16px;
   font-stretch: normal;
@@ -8,20 +8,16 @@ body {
   font-variant-caps: normal;
   font-weight: normal;
   font: 100%/1.666 'Open Sans', 'Open Sans Light', 'Open Sans Italic', 'Open Sans Light Italic', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 canvas {
-  width: 100%;
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-  max-height: -moz-available;
-  max-height: -webkit-fill-available;
-  max-height: fill-available;
-  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: -1;
   padding: env(safe-area-inset-top)
     env(safe-area-inset-right)
     env(safe-area-inset-bottom)
@@ -29,65 +25,7 @@ canvas {
 }
 
 .text-container {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 600px;
-  height: 100%;
-  min-height: 100%;
-  max-height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: inherit;
-}
-
-.vertical-container {
-  box-sizing: border-box;
-  width: 900px;
-  max-width: 100%;
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-  max-height: -moz-available;
-  max-height: -webkit-fill-available;
-  max-height: fill-available;
-  max-height: 100%;
-  padding: 50px 50px 50px 50px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: inherit;
-}
-
-.horizontal-container {
-  box-sizing: border-box;
-  width: 100vw;
-  max-width: 100%;
-  height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-  max-height: -moz-available;
-  max-height: -webkit-fill-available;
-  max-height: fill-available;
-  max-height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  z-index: 2;
+  max-width: 900px;
 }
 
 .link {
