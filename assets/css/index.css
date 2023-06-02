@@ -34,21 +34,21 @@ canvas {
 
 .link {
   color: #0A2540;
-  text-decoration: none;
-  -webkit-transition: all 0.25s ease-in;
-  -moz-transition: all 0.25s ease-in;
-  -ms-transition: all 0.25s ease-in;
-  -o-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in;
+  text-decoration: underline dotted;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -ms-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .link:hover {
-  color: #7A73FF;
-  -webkit-transition: all 0.25s ease-out;
-  -moz-transition: all 0.25s ease-out;
-  -ms-transition: all 0.25s ease-out;
-  -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
+  color: #0A254080;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 h1,
@@ -133,7 +133,7 @@ h1 {
 }
 
 .social-icon:hover .social-circle {
-  stroke: #7A73FF;
+  stroke: #0A254080;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
@@ -142,7 +142,7 @@ h1 {
 }
 
 .social-icon:hover .social-svg-icon {
-  fill: #7A73FF;
+  fill: #0A254080;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
